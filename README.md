@@ -7,6 +7,6 @@
 * Small and trivial tasks are not worth breaking and running in parallel. (线程创建, 调度等都需要额外开销)
     - The longer and heavier the original task is, the more worthwhile it is to break it and run it in parallel.
 
-* We can get a speed up if we partition a problem into multiple sub-problems.
+* We can get a speed up if we partition a problem into multiple sub-problems (less latency).
 
 * That more threads than number of cores is counterproductive for problems that involve only computations and no blocking calls.
