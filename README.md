@@ -1,5 +1,6 @@
-### 🧵 Java Multithreading Learning 🥇 <br><br>
+## 🧵 Java Multithreading Learning 🥇 <br><br>
 
+### Performance
 * Performance in Multithreading (2 main criteria):
     - Latency - The time to  completion of a task. Measured in time units.
     - Throughput - The amount of tasks completed in a given period. Measured in tasks/time unit.
